@@ -35,7 +35,7 @@ function showSOS() {
     </div>
     `;
     document.getElementById('sos-btn').addEventListener('click', () => {
-        navigator.vibrate([300, 300, 300, 600, 600, 600, 300, 300, 300]);
+        navigator.vibrate([300, 50, 300, 50, 300, 50, 600, 50, 600, 50, 600, 50, 300, 50, 300, 50, 300]);
         alert("Wibracje SOS zostały wysłane!");
     });
 }
